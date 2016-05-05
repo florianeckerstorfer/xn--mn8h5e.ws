@@ -1,0 +1,76 @@
+html {
+    height: 100%;
+}
+body {
+    height: 100%;
+    margin: 0;
+}
+
+section {
+    align-items: center;
+    font: 30px Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    height: 100%;
+    line-height: 1.5;
+}
+
+.hello {
+    text-align: center;
+    width: 100%;
+}
+
+.waving {
+    display: inline-block;
+    line-height: 1;
+    animation: wave 1s infinite;
+    transform-origin: 85% 75%;
+}
+
+@keyframes wave {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(20deg)
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+.author {
+    color: #999;
+    font: 12px 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    left: 0;
+    padding: 10px;
+    position: absolute;
+    text-align: center;
+    text-transform: lowercase;
+    top: 0;
+}
+
+.author a {
+    background: no-repeat left center/contain url(/img/fe-logo.svg);
+    display: inline-block;
+    height: 24px;
+    line-height: 24px;
+    padding-left: 28px;
+    vertical-align: middle;
+}
+
+.author a:link, .author a:active, .author a:visited {
+    color: #e64c66;
+    text-decoration: none;
+}
+
+.author a .name {
+    display: inline-block;
+    text-indent: -300px;
+    transition: text-indent .3s ease-out;
+    overflow: hidden;
+}
+
+.author a:hover .name,
+.author a:focus .name {
+    text-indent: 0;
+}
