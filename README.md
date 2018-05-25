@@ -1,3 +1,5 @@
-# 👋🏼.ws
+# 👋🏻.ws
 
 > By [Florian Eckerstorfer](https://florian.ec)
+
+[![Build Status](https://travis-ci.org/florianeckerstorfer/xn--mn8h5e.ws.svg?branch=master)](https://travis-ci.org/florianeckerstorfer/xn--mn8h5e.ws)
