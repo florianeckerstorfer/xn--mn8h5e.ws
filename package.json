@@ -20,7 +20,7 @@
     "gulp-postcss": "^8.0.0",
     "gulp-sourcemaps": "^2.6.4",
     "gulp-uglify": "^3.0.1",
-    "yargs": "^13.1.0"
+    "yargs": "^14.0.0"
   },
   "dependencies": {
     "gulp-util": "^3.0.8"
